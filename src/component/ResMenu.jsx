@@ -86,7 +86,7 @@ let {id} = useParams();
 
             <div className=" container mx-auto  w-[70%]">
                 <div className="relative mb-5">
-                    <Link to={`/city/delhi/${id}/search`}>
+                    <Link to={`/city/ludhiana/${id}/search`}>
                     <SearchIcon className="absolute top-3 right-4 text-gray-600"/>
                     <p className="p-3 text-[18px] text-center bg-gray-200 border-neutral-300 border rounded-2xl  tracking-wide text-gray-600">Search for Dishes</p>
                     </Link>
