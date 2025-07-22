@@ -80,7 +80,7 @@ const { data: InMind, isLoading: isLoadingMind, isError: isErrorMind, error: err
         
             <div className="w-[80%] mx-auto container mt-10 ">
                 <p className="font-bold text-2xl">Restaurants with online food delivery in Ludhiana</p>
-                <div className="w-full flex gap-5 mt-5 font-semibold [&>button]:opacity-70 [&>button]:border [&>button]:border-gray-800 [&>button]:rounded-2xl [&>button]:px-2 [&>button]:py-1 [&>button]:cursor-pointer">
+                <div className="w-full flex gap-2 mt-5 font-semibold [&>button]:opacity-70 [&>button]:border [&>button]:border-gray-800 [&>button]:rounded-2xl [&>button]:px-2 [&>button]:py-1 [&>button]:cursor-pointer">
                     <button>Filter</button>
                     <button>Sort By</button>
                     <button>Fast Deleviry</button>
