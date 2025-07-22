@@ -50,7 +50,7 @@ export default function Checkout() {
                 </div>
             </div>
             <div className="w-full flex gap-5">
-                <div className="w-[60%] ml-10 shadow-lg overflow-y-auto max-h-137 border border-gray-400 custom-scroll">
+                <div className="w-[50%] ml-10 shadow-lg overflow-y-auto max-h-120 border border-gray-400 custom-scroll">
                     <div>
                         {items.map((item) => (
                             <div
@@ -149,17 +149,17 @@ export default function Checkout() {
                         ))}
                     </div>
                 </div>
-                <div className="w-[35%%] mr-10  border border-gray-400 px-6 shadow-lg ">
-                    <div className="  flex items-center justify-center text-2xl font-semibold tracking-wider pb-2">
+                <div className="w-[45%] mr-10  border border-gray-400 px-6 shadow-lg ">
+                    <div className="  flex items-center justify-center text-base font-semibold tracking-wider pb-2">
                         <h2 >Your Order Summary</h2>
                     </div>
-                    <div className="overflow-y-auto max-h-58 custom-scroll pr-4">
+                    <div className="overflow-y-auto max-h-40 custom-scroll pr-4">
                     {items.map((item) => (
                         item.quantity > 0 && (
                             <div key={item?.card?.info?.id} className="flex items-center py-2 border-b">
-                                <div className="text-gray-700 font-semibold truncate w-[70%]">{item?.card?.info?.name} ({item.quantity} pc)</div>
+                                <div className="text-gray-700 font-semibold truncate w-[60%]">{item?.card?.info?.name} ({item.quantity} pc)</div>
                                 <div className="flex items-center   ">
-                                    <div className="border rounded-[6px] border-gray-500 ">
+                                    <div className="border rounded-[6px] border-gray-500 ml-2 ">
                                     <button
                                         onClick={() => dispatch(DecrementItems(item))}
                                         className="text-xl font-bold px-2 cursor-pointer"

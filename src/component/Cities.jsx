@@ -36,7 +36,7 @@ export default function Cities({online,foodDelivery}){
                 <div className="grid grid-cols-4 gap-5 mt-4">
                     {
                         visibleItems.map(val => (
-                            <div key={val.text} className="p-4 text-[16px] font-semibold rounded-2xl flex items-center justify-center border border-gray-500">
+                            <div key={val.text} className="p-3 text-[14px] font-semibold rounded-2xl flex items-center justify-center border border-gray-500">
                                 <a href={val.link} target="blank">
                                     <p className="text-center opacity-80">{online}</p>
                                     <p className="text-center opacity-80">{val.text}</p>
