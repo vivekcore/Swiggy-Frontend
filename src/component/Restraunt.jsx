@@ -93,7 +93,7 @@ const { data: InMind, isLoading: isLoadingMind, isError: isErrorMind, error: err
                 </div>
             </div>
             
-             <div className=" border-b-pink-300 border-0 border-b-2 w-[80%] container mx-auto  flex flex-wrap scroll-smooth gap-5 mt-10 pb-5">
+             <div className=" border-b-pink-300 border-0 border-b-2 w-[85%] container mx-auto justify-center  flex flex-wrap scroll-smooth gap-3 mt-10 pb-5">
             {
                 visiblecount.map((resinfo) => <ResCard key={resinfo?.info?.id} resinfo={resinfo}></ResCard>)
             }

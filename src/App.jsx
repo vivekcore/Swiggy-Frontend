@@ -19,8 +19,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route element={<ResHomeHeader></ResHomeHeader>}>
           <Route path="/restraunt" element={<Restraunt />} />
-          <Route path="/city/delhi/:id" element={<ResMenu />} />
-          <Route path="/city/delhi/:id/search" element={<SearchFood />} />
+          <Route path="/city/ludhiana/:id" element={<ResMenu />} />
+          <Route path="/city/ludhiana/:id/search" element={<SearchFood />} />
         </Route>
         <Route path="/checkout" element={<Checkout></Checkout>}></Route>
         <Route path="*" element={<div>404: Page Not Found</div>} />
