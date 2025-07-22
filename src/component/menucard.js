@@ -45,7 +45,7 @@ export default function Menucard({menu,foodselected}){
                     </>
                 ) :
                 menu.title === 'Top Picks' && (
-                    <div className="flex flex-col w-full"> 
+                    <div className="flex flex-col scroll-invi w-full"> 
                         <div className="relative w-full flex items-center">
                             <p className="text-2xl font-bold  p-5">{menu?.title}</p>
                             <button onClick={() => scroll('left')} className="absolute top-9 right-15 -translate-y-1/2 z-10 bg-gray-200 shadow p-2 rounded-full cursor-pointer"><ArrowLeft /></button>
@@ -82,7 +82,7 @@ export default function Menucard({menu,foodselected}){
                     </>
                 ) :
                 menu.title === 'Top Picks' && (
-                    <div className="flex flex-col w-full"> 
+                    <div className="flex flex-col scroll-invi w-full"> 
                         <div className="relative w-full flex items-center">
                             <p className="text-2xl font-bold  p-5">{menu?.title}</p>
                             <button onClick={() => scroll('left')} className="absolute top-9 right-15 -translate-y-1/2 z-10 bg-gray-200 shadow p-2 rounded-full cursor-pointer"><ArrowLeft /></button>
