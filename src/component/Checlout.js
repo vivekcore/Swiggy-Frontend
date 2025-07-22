@@ -184,7 +184,7 @@ export default function Checkout() {
                     {items2.map((item) => (
                         item.quantity > 0 && (
                             <div key={item?.dish?.info?.id} className="flex items-center py-2 border-b">
-                                <span className="text-gray-700 font-semibold truncate w-[70%]">{item?.dish?.info?.name} ({item.quantity} pc)</span>
+                                <span className="text-gray-700 font-semibold truncate w-[60%]">{item?.dish?.info?.name} ({item.quantity} pc)</span>
                                
                                 <div className="flex items-center">
                                     <div className="border rounded-[6px] border-gray-500 ">
